@@ -1,0 +1,112 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(green, purple);
+    color: black;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 1px 1px 1px white;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid lightcyan;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: lightcyan;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: lightcyan;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("https://i2-prod.football.london/incoming/article28013473.ece/ALTERNATES/s1200/0_chelsea-kit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://i.makeagif.com/media/2-08-2024/3MRsEj.gif");
+    background-size: contain;
+    background-position: center;
+}
+
+#gift-img-hot:hover {
+    background-image: url("https://y.yarn.co/cc094200-8350-4fc0-9220-0e413a2c18af_text.gif");
+    background-size: contain;
+    background-position: center;
+}
+
+#gift-img-genius:hover {
+    background-image: url("https://y.yarn.co/7afdbe97-b49e-43bd-9aaf-a51b5906a60c_text.gif");
+    background-size: contain;
+    background-position: center;
+}
+
+#gift-img-badass:hover {
+    background-image: url("https://media.tenor.com/6goOUh_9zX4AAAAM/diddyman.gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/cheers.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
